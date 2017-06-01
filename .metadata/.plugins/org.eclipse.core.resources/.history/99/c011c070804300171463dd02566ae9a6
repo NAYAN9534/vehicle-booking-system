@@ -1,0 +1,45 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<%@page import="javax.sql.*" %>
+<%@page import="java.sql.*"%>
+<%
+try{ 
+
+	Class.forName("com.mysql.jdbc.Driver"); 
+	String contact_no=(String)session.getAttribute("mobile");
+	java.sql.Connection con= DriverManager.getConnection("jdbc:mysql://localhost:3306/goods_service_db","root" , "");
+	
+	PreparedStatement p = con.prepareStatement("select * from vec_booking");
+	
+	ResultSet result = p.executeQuery();
+	%>
+	
+	<H1 align="center" >Booking History</h1>
+	<TABLE Border="0" align="center">
+	<% while(result.next())
+	{
+	%>
+				<TR><TD><b>Username &nbsp;&nbsp;: &nbsp;</b><%= result.getString(5) %> </TD></TR>
+				<TR><TD><b>Contact &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;</b><%= result.getString(4) %> </TD></TR>
+               <TR><TD><b> Source &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;: &nbsp;</b><%= result.getString(1) %> </TD></TR>
+               <TR><TD><b> Destination : &nbsp;</b><%= result.getString(2) %> </TD></TR>
+               <TR><TD><b> Workforce &nbsp;: &nbsp;</b><%= result.getString(3) %> </TD></TR> 
+               <TR><TD><b>--------------------------------------------------------</TD></TR> 
+       <%} %>
+       </TABLE>
+       <center><a href="profile.jsp"><button>Back</button></a></center>
+	<%
+}
+
+catch (Exception e)
+{}
+%>
+</body>
+</html>

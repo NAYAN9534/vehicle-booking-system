@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<title>SignUp Verify</title>
+<head>
+<style>
+div {
+    height: 200px;
+    width: 400px;
+    background: white;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -200px;
+}
+h1{
+	font-size:25px;
+	color:green;
+	text-align:center;
+}
+</style>
+</head>
+<body>
+   <div> 
+	 <H1>Your account has created successfully</H1>
+	 <p align="center">Click on <a href="">Login</a> to verify</p>
+	</div>
+</body>
+</html>

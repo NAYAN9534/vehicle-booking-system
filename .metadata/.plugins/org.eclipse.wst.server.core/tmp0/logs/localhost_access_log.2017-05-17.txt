@@ -1,0 +1,7 @@
+127.0.0.1 - - [17/May/2017:12:49:13 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [17/May/2017:12:49:29 +0530] "GET /minor/WEB-INF/classes/loginverify.java HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [17/May/2017:12:52:48 +0530] "GET /minor/WEB-INF/classes/loginverify.java HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [17/May/2017:12:52:53 +0530] "GET /minor/WEB-INF/classes/loginverify.java HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [17/May/2017:12:58:30 +0530] "GET /help/topic/com.vmware.ICbase/images/vmware_favicon.ico HTTP/1.1" 404 1059
+0:0:0:0:0:0:0:1 - - [17/May/2017:13:40:44 +0530] "GET /minor/WEB-INF/classes/loginverify.java HTTP/1.1" 404 949
+0:0:0:0:0:0:0:1 - - [17/May/2017:14:07:07 +0530] "GET /minor/WEB-INF/classes/loginverify.java HTTP/1.1" 404 949

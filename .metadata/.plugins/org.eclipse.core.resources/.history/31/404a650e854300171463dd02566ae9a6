@@ -1,0 +1,92 @@
+<!doctype html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contact Us</title>
+	<link rel="icon"type="image" href="Logo.jpg"/>   <!--fav icon tag-->
+</head>
+<style type="text/css">
+
+.submitbtn
+{
+  padding: 14px 20px;
+  background-color: lightblue;
+  
+}
+button .submitbtn: hover
+{
+	box-shadow: 10px 10px 5px #;
+}
+button 
+{
+    
+    color:  #556B2F;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:200px;
+    transition-duration: 0.4s;
+}
+input[type=text], input[type=text] 
+{
+    width: 400px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+#contact p
+{
+font-family: calibri;
+font-size: 30px;
+color:  	#000000;
+}
+body {
+    background-image: url("69465187-contact-wallpapers.jpg");
+    background-size: 1366px auto;
+}
+#contact
+{
+    margin-top: 150px;
+}
+
+.message
+{
+	height: 100%;
+
+}
+
+</style>
+<body>
+
+
+<div id="contact">
+<center>
+<p><b>Feedback, Comments, enquiries?</b></p>
+
+<form id="frm_Newjoin" method="post" action="">
+	<input type="text" name="txt_mail" id="mail" placeholder="Email"/><br><br>
+	<input type="text" name="txt_name" id="uname" placeholder="Name"/><br><br>
+  
+   <input class="message" type="text" name="txt_comment" id="comment" placeholder="Message"/><br><br>
+	
+	
+	<button type="button" onclick="document.getElementById('id01').style.display='none'" class="submitbtn">Submit</button>
+	
+</form>
+
+<h3 style="color:	#000000; font-family:calibri;">Can't wait for Email? <br>call us @ +91-9898989898</h3>	
+</center>
+
+</div>
+
+
+
+
+
+
+
+</body>
+</html>

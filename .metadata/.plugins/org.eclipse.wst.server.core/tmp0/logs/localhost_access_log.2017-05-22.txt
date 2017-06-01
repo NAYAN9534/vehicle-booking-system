@@ -1,0 +1,9 @@
+127.0.0.1 - - [22/May/2017:13:25:26 +0530] "GET / HTTP/1.1" 404 951
+0:0:0:0:0:0:0:1 - - [22/May/2017:13:25:30 +0530] "GET /minor/userlogin.jsp HTTP/1.1" 200 773
+0:0:0:0:0:0:0:1 - - [22/May/2017:13:25:50 +0530] "POST /minor/userloginconn.jsp HTTP/1.1" 200 331
+0:0:0:0:0:0:0:1 - - [22/May/2017:13:25:50 +0530] "POST /minor/userloginconn.jsp HTTP/1.1" 500 4557
+0:0:0:0:0:0:0:1 - - [22/May/2017:13:26:20 +0530] "GET /minor/owner_regconn.jsp HTTP/1.1" 200 269
+0:0:0:0:0:0:0:1 - - [22/May/2017:13:26:33 +0530] "GET /minor/owner_reg.jsp HTTP/1.1" 200 960
+0:0:0:0:0:0:0:1 - - [22/May/2017:13:26:55 +0530] "POST /minor/owner_regconn.jsp HTTP/1.1" 200 269
+0:0:0:0:0:0:0:1 - - [22/May/2017:13:27:30 +0530] "GET /minor/booking_page.jsp HTTP/1.1" 200 1165
+0:0:0:0:0:0:0:1 - - [22/May/2017:13:27:48 +0530] "POST /minor/booking_conn.jsp HTTP/1.1" 200 334
